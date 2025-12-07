@@ -10,7 +10,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-primary text-primary-foreground">
       <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-lg bg-red-700 flex items-center justify-center font-bold text-lg">-</div>
+          <div className="w-10 h-10 rounded-lg bg-red-700 flex items-center justify-center font-bold text-lg">!</div>
           <span className="text-xl font-bold">짬뽕클릭</span>
         </div>
 
