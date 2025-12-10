@@ -6,7 +6,7 @@ export function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const slides = [
-    "/spicy-red-jjamppong-noodles-with-seafood-in-bowl.jpg",
+    "/IMG_2500.png",
     "/korean-chinese-restaurant-interior-with-jjamppong-.jpg",
     "/steaming-hot-jjamppong-soup-with-fresh-ingredients.jpg",
   ]
@@ -35,7 +35,7 @@ export function Hero() {
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            <img src={slide || "/placeholder.svg"} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
+            <img src={slide || "/IMG_2500.png"} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
           </div>
         ))}
         {/* Dark overlay for text readability */}

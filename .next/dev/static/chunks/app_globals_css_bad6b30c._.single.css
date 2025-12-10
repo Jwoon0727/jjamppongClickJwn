@@ -1000,16 +1000,8 @@
     height: calc(var(--spacing) * 40);
   }
 
-  .h-48 {
-    height: calc(var(--spacing) * 48);
-  }
-
   .h-60 {
     height: calc(var(--spacing) * 60);
-  }
-
-  .h-68 {
-    height: calc(var(--spacing) * 68);
   }
 
   .h-96 {
@@ -1086,10 +1078,6 @@
 
   .min-h-16 {
     min-height: calc(var(--spacing) * 16);
-  }
-
-  .min-h-\[70vh\] {
-    min-height: 70vh;
   }
 
   .min-h-\[80vh\] {
@@ -2084,16 +2072,6 @@
 
   .bg-red-600 {
     background-color: var(--color-red-600);
-  }
-
-  .bg-red-600\/10 {
-    background-color: #e400141a;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-red-600\/10 {
-      background-color: color-mix(in oklab, var(--color-red-600) 10%, transparent);
-    }
   }
 
   .bg-red-700 {
@@ -3536,18 +3514,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       .hover\:bg-muted\/50:hover {
         background-color: color-mix(in oklab, var(--muted) 50%, transparent);
-      }
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:bg-primary\/50:hover {
-      background-color: var(--primary);
-    }
-
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:bg-primary\/50:hover {
-        background-color: color-mix(in oklab, var(--primary) 50%, transparent);
       }
     }
   }
@@ -5315,12 +5281,6 @@
   @media (min-width: 64rem) {
     .lg\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:grid-cols-6 {
-      grid-template-columns: repeat(6, minmax(0, 1fr));
     }
   }
 
