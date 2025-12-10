@@ -37,7 +37,7 @@ const menuItems = [
   {
     id: 4,
     name: "볶음밥",
-    description: "바삭하게 튀긴 닭고기에 달콤매콤한 소스를 곁들인 인기 메뉴",
+    description: "짜장과 볶음밥을 함께 먹을 수 있습니다.",
     image: "/bokk.jpeg",
     price: "26,000원",
     category: "기타",
