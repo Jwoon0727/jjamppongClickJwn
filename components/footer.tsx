@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -5,8 +7,15 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center font-bold">짬</div>
-              <span className="font-bold text-lg">짬뽕클릭</span>
+            <div className="relative w-[220px] h-[80px] p-0 m-0">
+            <Image
+              src="/logo1.png"
+              alt="짬뽕클릭 로고"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
             </div>
             <p className="text-sm text-muted-foreground">정통 중국 짬뽕을 경험하세요</p>
           </div>

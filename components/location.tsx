@@ -70,7 +70,7 @@ export function Location() {
           <div className="space-y-4">
             <div className="h-96 rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.2992045447596!2d127.02758731559458!3d37.49794197981076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca15a4c1ea44f%3A0x39db7c6d81025362!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDthYztl6TrnoDroZwgMTIz!5e0!3m2!1sko!2skr!4v1234567890123!5m2!1sko!2skr"
+                src="https://www.google.com/maps?q=36.84187,127.15201&hl=ko&z=17&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -80,7 +80,7 @@ export function Location() {
               />
             </div>
             <button
-              onClick={() => window.open("https://map.naver.com/p/search/서울시 강남구 테헤란로 123", "_blank")}
+              onClick={() => window.open("https://map.naver.com/p/search/충남 천안시 서북구 부대동 943", "_blank")}
               className="w-full px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center gap-2"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -98,14 +98,12 @@ export function Location() {
                 <div className="flex gap-4">
                   <span className="text-red-600 font-semibold min-w-fit">주소</span>
                   <p className="text-muted-foreground">
-                    서울시 강남구 테헤란로 123
-                    <br />
-                    (위치는 예시입니다)
+                  충남 천안시 서북구 부대동 943
                   </p>
                 </div>
                 <div className="flex gap-4">
                   <span className="text-red-600 font-semibold min-w-fit">전화</span>
-                  <p className="text-muted-foreground">02-1234-5678</p>
+                  <p className="text-muted-foreground">041-902-2600</p>
                 </div>
                 <div className="flex gap-4">
                   <span className="text-red-600 font-semibold min-w-fit">영업시간</span>

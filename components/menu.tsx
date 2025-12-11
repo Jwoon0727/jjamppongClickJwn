@@ -6,20 +6,20 @@ import Image from "next/image"
 const menuItems = [
   {
     id: 1,
-    name: "짬뽕",
+    name: "클릭 짬뽕",
     description: "매콤하고 진한 국물에 해산물과 야채가 가득한 시그니처 메뉴",
     image: "/zzam02.jpg",
-    price: "12,000원",
+    price: "11,000원",
     category: "짜장&짬뽕",
     tags: ["인기", "시그니처"],
     badge: "짜장&짬뽕",
   },
   {
     id: 2,
-    name: "탕수육",
+    name: "등심 탕수육",
     description: "바삭한 튀김옷과 새콤달콤한 소스가 어우러진 정통 탕수육",
     image: "/tangsu.jpeg",
-    price: "28,000원",
+    price: "17,000원",
     category: "사이드",
     tags: ["인기", "프리미엄"],
     badge: "사이드",
@@ -28,18 +28,18 @@ const menuItems = [
     id: 3,
     name: "짜장면",
     description: "진한 춘장 소스에 고기와 야채가 어우러진 클래식 짜장면",
-    image: "/zajang.jpeg",
-    price: "10,000원",
+    image: "/jajang.jpeg",
+    price: "7,000원",
     category: "짜장&짬뽕",
     tags: ["인기"],
     badge: "짜장&짬뽕",
   },
   {
     id: 4,
-    name: "볶음밥",
+    name: "게살 볶음밥",
     description: "짜장과 볶음밥을 함께 먹을 수 있습니다.",
     image: "/bokk.jpeg",
-    price: "26,000원",
+    price: "10,000원",
     category: "기타",
     tags: ["인기"],
     badge: "기타",
@@ -49,30 +49,30 @@ const menuItems = [
     name: "군만두",
     description: "고소하고 바삭한 겉면과 육즙 가득한 속이 일품인 구운 만두",
     image: "/mando.jpeg",
-    price: "8,000원",
+    price: "7,500원",
     category: "사이드",
     tags: ["채식"],
     badge: "사이드",
   },
   {
     id: 6,
-    name: "순두부+수제비짬뽕",
+    name: "순두부+수제비",
     description: "신선한 해산물과 야채를 곁들인 시원한 냉채 요리",
     image: "/sunsu.jpeg",
-    price: "32,000원",
+    price: "12,000원",
     category: "짬뽕 스페셜",
     tags: ["프리미엄", "건강식"],
     badge: "사이드",
   },
   {
     id: 7,
-    name: "아이스크림",
-    description: "부드럽고 달콤한 홈메이드 아이스크림",
-    image: "/vanilla-ice-cream-in-bowl.jpg",
-    price: "5,000원",
-    category: "기타",
+    name: "순두부 짬뽕밥",
+    description: "순두부와 짬뽕밥을 함께 먹을 수 있습니다.",
+    image: "/jj03.jpeg",
+    price: "11,000원",
+    category: "짬뽕 스페셜",
     tags: [],
-    badge: "기타",
+    badge: "짬뽕 스페셜",
   },
   {
     id: 8,
@@ -118,7 +118,7 @@ export function Menu() {
               key={item.id}
               className="bg-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
-              <div className="relative h-40 md:h-80">
+              <div className="relative h-44 md:h-80">
                 <Image src={item.image || "/placeholder.svg"} alt={item.name} fill className="object-cover" />
 
                 {/* 좌상단 녹색/주황색 라벨 */}

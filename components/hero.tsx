@@ -56,11 +56,11 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 text-pretty text-white">짬뽕클릭</h1>
+        
         <p className="text-xl md:text-2xl text-white/90 mb-8">진정한 맛의 중국 짬뽕을 경험하세요</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors">
-            예약하기
+            창업문의
           </button>
           <button
             onClick={scrollToMenu}

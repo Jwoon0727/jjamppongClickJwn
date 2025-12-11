@@ -2,16 +2,24 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <header className="sticky top-0 z-50 bg-primary text-primary-foreground">
-      <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-lg bg-red-700 flex items-center justify-center font-bold text-lg">!</div>
-          <span className="text-xl font-bold">짬뽕클릭</span>
+      <nav className="max-w-7xl mx-auto px-1 py-2 flex items-center justify-between">
+        <div className="flex items-center gap-3 p-0 m-0">
+          <div className="relative w-[220px] h-[80px] p-0 m-0">
+            <Image
+              src="/logo1.png"
+              alt="짬뽕클릭 로고"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
         </div>
 
         {/* Desktop Menu */}
