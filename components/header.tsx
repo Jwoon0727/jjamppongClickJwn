@@ -11,7 +11,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-primary text-primary-foreground">
       <nav className="max-w-7xl mx-auto px-1 py-2 flex items-center justify-between">
         <div className="flex items-center gap-3 p-0 m-0">
-          <div className="relative w-[220px] h-[80px] p-0 m-0">
+          <div className="relative w-[165px] h-[80px] p-0 m-0">
             <Image
               src="/logo1.png"
               alt="짬뽕클릭 로고"
