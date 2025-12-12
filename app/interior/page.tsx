@@ -9,7 +9,7 @@ import Link from "next/link"
 const storeInteriors = [
   {
     id: 1,
-    name: "강남점",
+    name: "천안본점",
     stages: [
       {
         id: 1,
@@ -36,7 +36,7 @@ const storeInteriors = [
   },
   {
     id: 2,
-    name: "동대문점",
+    name: "충주점",
     stages: [
       {
         id: 1,
@@ -63,7 +63,7 @@ const storeInteriors = [
   },
   {
     id: 3,
-    name: "홍대점",
+    name: "-점",
     stages: [
       {
         id: 1,
@@ -88,33 +88,7 @@ const storeInteriors = [
     unitPrice: "370만원",
     totalCost: "1억 6,040만원",
   },
-  {
-    id: 4,
-    name: "명동점",
-    stages: [
-      {
-        id: 1,
-        stage: "착공 전",
-        description: "명동 중심가의 프리미엄 공간",
-        image: "/empty-commercial-space-before-renovation.jpg",
-      },
-      {
-        id: 2,
-        stage: "공사 중",
-        description: "최고급 인테리어 시공 진행",
-        image: "/restaurant-under-construction-renovation-process.jpg",
-      },
-      {
-        id: 3,
-        stage: "완공 후",
-        description: "명동 프리미엄 짬뽕클릭 오픈",
-        image: "/modern-elegant-chinese-restaurant-interior-finishe.jpg",
-      },
-    ],
-    area: "40평",
-    unitPrice: "400만원",
-    totalCost: "2억 원",
-  },
+  
 ]
 
 export default function InteriorPage() {
@@ -155,25 +129,29 @@ export default function InteriorPage() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="pt-20">
+      <main>
+    
         {/* Hero Section */}
-        <section className="bg-primary text-primary-foreground py-16 md:py-24">
-          <div className="max-w-6xl mx-auto px-4 md:px-6 text-center">
-            <div className="mb-6">
-              <Link
-                href="/"
-                className="inline-flex items-center gap-2 bg-white text-gray-800 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl"
-              >
-                <Home className="w-5 h-5" />
-                홈으로 돌아가기
-              </Link>
-            </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 font-serif text-red-600">인테리어 안내</h1>
-            <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto">
-              프리미엄 짬뽕클릭 매장의 인테리어 과정과 창업 비용을 안내해드립니다
-            </p>
-          </div>
-        </section>
+        <section className="bg-primary text-primary-foreground py-16 md:py-24 relative">
+  <div className="max-w-6xl mx-auto px-4 md:px-6">
+    {/* 이전 버튼 - 왼쪽 위 고정 */}
+    <Link 
+      href="/"
+      className="absolute left-4 md:left-6 top-4 md:top-6 flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg transition-colors z-10"
+    >
+      <ChevronLeft className="w-5 h-5" />
+    
+    </Link>
+    
+    {/* 제목 - 가운데 정렬 */}
+    <div className="text-center">
+      <h1 className="text-4xl md:text-6xl font-bold mb-6 font-serif text-red-600">인테리어 안내</h1>
+      <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto">
+        프리미엄 짬뽕클릭 매장의 인테리어 과정과 창업 비용을 안내해드립니다
+      </p>
+    </div>
+  </div>
+</section>
 
         {/* Interior Stage Gallery */}
         <section className="py-16 md:py-24 bg-background">

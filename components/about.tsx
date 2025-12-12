@@ -89,7 +89,7 @@ export function About() {
                 <div className="text-center">
                   <div className="text-xl font-bold text-orange-400 mb-1">1단계</div>
                   <div className="text-base font-serif text-white mb-1">매운맛 입성</div>
-                  <div className="text-xs text-muted-foreground">(약간 매움)</div>
+                  <div className="text-xs text-muted-foreground">(맛있게 매운맛)</div>
                 </div>
               </div>
 
@@ -107,7 +107,7 @@ export function About() {
                 <div className="text-center">
                   <div className="text-xl font-bold text-red-500 mb-1">2단계</div>
                   <div className="text-base font-serif text-white mb-1">고수 매운맛</div>
-                  <div className="text-xs text-muted-foreground">(맵지만 견딜만함)</div>
+                  <div className="text-xs text-muted-foreground">(청양고추를 많이 넣은듯한 매운맛)</div>
                 </div>
               </div>
 
@@ -126,7 +126,7 @@ export function About() {
                 <div className="text-center">
                   <div className="text-xl font-bold text-red-600 mb-1">3단계</div>
                   <div className="text-base font-serif text-white mb-1">초인 매운맛</div>
-                  <div className="text-xs text-muted-foreground">(다음날을 각오)</div>
+                  <div className="text-xs text-muted-foreground">(불닭볶음면과 비슷한 매운맛)</div>
                 </div>
               </div>
 
@@ -148,7 +148,7 @@ export function About() {
                   <div className="text-center">
                     <div className="text-xl font-bold text-red-700 mb-1">4단계</div>
                     <div className="text-base font-serif text-white mb-1">저세상 매운맛</div>
-                    <div className="text-xs text-red-400 font-bold">(도전 금지)</div>
+                    <div className="text-xs text-red-400 font-bold">(??????)</div>
                   </div>
                 </div>
               </div>

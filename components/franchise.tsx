@@ -10,7 +10,7 @@ const franchises = [
     address: "충남 천안시 서북구 부성9로 6",
     phone: "041-902-2600",
     hours: "11:00 - 22:00",
-    image: "/chinese-restaurant-interior-elegant-modern.jpg",
+    image: "/interior.jpeg",
   },
   {
     id: 2,
@@ -96,14 +96,14 @@ export function Franchise() {
             )}
             <button
               onClick={handlePrevious}
-              className="absolute left-4 top-1/2 -translate-y-1/2 bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition-all z-10"
+              className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full transition-all z-10"
               aria-label="Previous franchise"
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
             <button
               onClick={handleNext}
-              className="absolute right-4 top-1/2 -translate-y-1/2 bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition-all z-10"
+              className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full transition-all z-10"
               aria-label="Next franchise"
             >
               <ChevronRight className="w-6 h-6" />

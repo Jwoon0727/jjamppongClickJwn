@@ -1170,16 +1170,16 @@
     width: 100px;
   }
 
+  .w-\[140px\] {
+    width: 140px;
+  }
+
   .w-\[160px\] {
     width: 160px;
   }
 
   .w-\[165px\] {
     width: 165px;
-  }
-
-  .w-\[170px\] {
-    width: 170px;
   }
 
   .w-\[220px\] {
@@ -1762,6 +1762,16 @@
     border-top-width: 1px;
   }
 
+  .border-t-2 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
+
+  .border-t-3 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 3px;
+  }
+
   .border-r {
     border-right-style: var(--tw-border-style);
     border-right-width: 1px;
@@ -2342,10 +2352,6 @@
     padding-inline: var(--cell-size);
   }
 
-  .px-0 {
-    padding-inline: calc(var(--spacing) * 0);
-  }
-
   .px-1 {
     padding-inline: calc(var(--spacing) * 1);
   }
@@ -2376,6 +2382,10 @@
 
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
+  }
+
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
   }
 
   .px-12 {
@@ -2410,6 +2420,10 @@
     padding-block: calc(var(--spacing) * 6);
   }
 
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
+
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
@@ -2440,6 +2454,14 @@
 
   .pt-8 {
     padding-top: calc(var(--spacing) * 8);
+  }
+
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+
+  .pt-15 {
+    padding-top: calc(var(--spacing) * 15);
   }
 
   .pt-20 {
@@ -3484,6 +3506,18 @@
   @media (hover: hover) {
     .hover\:bg-accent:hover {
       background-color: var(--accent);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-black\/80:hover {
+      background-color: #000c;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-black\/80:hover {
+        background-color: color-mix(in oklab, var(--color-black) 80%, transparent);
+      }
     }
   }
 
@@ -5004,6 +5038,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:top-6 {
+      top: calc(var(--spacing) * 6);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:right-4 {
       right: calc(var(--spacing) * 4);
     }
@@ -5012,6 +5052,12 @@
   @media (min-width: 48rem) {
     .md\:left-4 {
       left: calc(var(--spacing) * 4);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:left-6 {
+      left: calc(var(--spacing) * 6);
     }
   }
 

@@ -95,13 +95,13 @@ export function Menu() {
 
   return (
     <section id="menu" className="py-20 px-4 bg-background">
-      <div className="max-w-7xl mx-auto">
+       <div className="max-w-7xl mx-auto">
         <div className="flex flex-wrap gap-3 justify-center mb-12">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-8 py-3 rounded-full font-semibold transition-all ${
+              className={`px-10 py-4 text-lg rounded-full font-semibold transition-all ${
                 selectedCategory === category
                   ? "bg-red-600 text-white shadow-lg"
                   : "bg-muted text-foreground hover:bg-red-50"
@@ -158,9 +158,7 @@ export function Menu() {
                 {/* 가격 & 버튼 */}
                 <div className="flex items-center justify-between flex-wrap gap-2">
                   <span className="text-lg md:text-2xl font-bold text-red-600">{item.price}</span>
-                  <button className="border border-muted-foreground text-foreground px-2 py-1 md:px-4 md:py-2 rounded hover:bg-muted transition-colors text-xs md:text-sm">
-                    상세 보기
-                  </button>
+                
                 </div>
               </div>
             </div>
