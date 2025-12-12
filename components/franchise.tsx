@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight, MapPin, Phone } from "lucide-react"
 const franchises = [
   {
     id: 1,
-    name: "본점",
+    name: "천안 본점",
     address: "충남 천안시 서북구 부성9로 6",
     phone: "041-902-2600",
     hours: "11:00 - 22:00",

@@ -126,9 +126,6 @@ export function Location() {
               </div>
             </div>
 
-            <button className="w-full px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors">
-              예약하기
-            </button>
           </div>
         </div>
       </div>

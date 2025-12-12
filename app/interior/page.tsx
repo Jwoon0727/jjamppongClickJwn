@@ -305,10 +305,9 @@ export default function InteriorPage() {
 
             {/* CTA Button */}
             <div className="mt-12 text-center">
-              <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-12 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl">
-                창업 상담 신청하기 →
-              </button>
-              <p className="mt-4 text-gray-600">자세한 상담을 원하시면 언제든 연락주세요</p>
+          
+              <p className="mt-4 text-gray-600">자세한 상담을 원하시면 언제든 연락주세요.</p>
+              <a href="tel:01012345678">041-902-2600</a>
             </div>
           </div>
         </section>
