@@ -7,8 +7,9 @@ export function Hero() {
 
   const slides = [
     "/main.jpeg",
+    "/main00.png",
     "/inside.jpeg",
-    "/main04.png",
+    
   ]
 
   useEffect(() => {
@@ -54,23 +55,29 @@ export function Hero() {
           />
         ))}
       </div>
+      {currentSlide !== slides.length - 2 && (
+  <div className="relative z-10 text-center px-4 max-w-3xl mx-auto -translate-y-25 md:-translate-y-25">
+    <p className="text-xl md:text-2xl text-white/90 mb-8">
+      진정한 맛의 중국 짬뽕을 경험하세요
+    </p>
 
-      <div className="relative z-10 text-center px-4 max-w-3xl mx-auto -translate-y-25 md:-translate-y-25">
-  <p className="text-xl md:text-2xl text-white/90 mb-8">진정한 맛의 중국 짬뽕을 경험하세요</p>
-  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-  <a
-                  href="/interior"
-                  className="px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors"
-                >인테리어
-</a>
-    <button
-      onClick={scrollToMenu}
-      className="px-8 py-3 border-2 border-red-600 text-white rounded-full font-semibold hover:bg-red-600/20 transition-colors"
-    >
-      메뉴보기
-    </button>
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <a
+        href="/interior"
+        className="px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors"
+      >
+        인테리어
+      </a>
+
+      <button
+        onClick={scrollToMenu}
+        className="px-8 py-3 border-2 border-red-600 text-white rounded-full font-semibold hover:bg-red-600/20 transition-colors"
+      >
+        메뉴보기
+      </button>
+    </div>
   </div>
-</div>
+)}
     </section>
   )
 }

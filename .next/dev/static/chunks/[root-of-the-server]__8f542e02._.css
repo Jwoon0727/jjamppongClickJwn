@@ -6966,18 +6966,8 @@
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
-  .-translate-y-15 {
-    --tw-translate-y: calc(var(--spacing) * -15);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-
   .-translate-y-25 {
     --tw-translate-y: calc(var(--spacing) * -25);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-
-  .-translate-y-45 {
-    --tw-translate-y: calc(var(--spacing) * -45);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
@@ -10738,22 +10728,8 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:-translate-y-15 {
-      --tw-translate-y: calc(var(--spacing) * -15);
-      translate: var(--tw-translate-x) var(--tw-translate-y);
-    }
-  }
-
-  @media (min-width: 48rem) {
     .md\:-translate-y-25 {
       --tw-translate-y: calc(var(--spacing) * -25);
-      translate: var(--tw-translate-x) var(--tw-translate-y);
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:-translate-y-45 {
-      --tw-translate-y: calc(var(--spacing) * -45);
       translate: var(--tw-translate-x) var(--tw-translate-y);
     }
   }
