@@ -20,9 +20,9 @@ const menuItems = [
     description: "바삭한 튀김옷과 새콤달콤한 소스가 어우러진 정통 탕수육",
     image: "/tangsu.jpeg",
     price: "17,000원",
-    category: "사이드",
+    category: "요리",
     tags: ["인기", "프리미엄"],
-    badge: "사이드",
+    badge: "요리",
   },
   {
     id: 3,
@@ -40,9 +40,9 @@ const menuItems = [
     description: "짜장과 볶음밥을 함께 먹을 수 있습니다.",
     image: "/bokk.jpeg",
     price: "10,000원",
-    category: "기타",
+    category: "요리",
     tags: ["인기"],
-    badge: "기타",
+    badge: "요리",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const menuItems = [
     image: "/mando.jpeg",
     price: "7,500원",
     category: "사이드",
-    tags: ["채식"],
+    tags: ["튀김"],
     badge: "사이드",
   },
   {
@@ -62,7 +62,7 @@ const menuItems = [
     price: "12,000원",
     category: "짬뽕 스페셜",
     tags: ["프리미엄", "건강식"],
-    badge: "사이드",
+    badge: "짬뽕 스페셜",
   },
   {
     id: 7,
@@ -76,20 +76,50 @@ const menuItems = [
   },
   {
     id: 8,
-    name: "망고 푸딩",
-    description: "신선한 망고로 만든 부드럽고 달콤한 디저트",
-    image: "/mango-pudding-dessert.jpg",
-    price: "7,000원",
-    category: "기타",
+    name: "짬짜면",
+    description: "짜장면과 짬뽕을 함께 즐길 수 있습니다.",
+    image: "/jjamjja.jpeg",
+    price: "12,000원",
+    category: "짜장&짬뽕",
     tags: ["인기"],
-    badge: "기타",
+    badge: "짜장&짬뽕",
+  },
+  {
+    id: 9,
+    name: "인절미 탕수육",
+    description: "인절미의 고소함을 느끼실 수 있습니다.",
+    image: "/injulmi.jpeg",
+    price: "19,000원",
+    category: "요리",
+    tags: ["인기"],
+    badge: "요리",
+  },
+  {
+    id: 10,
+    name: "숙주 짬뽕",
+    description: "인절미의 고소함을 느끼실 수 있습니다.",
+    image: "/sun.jpeg",
+    price: "11,500원",
+    category: "짬뽕 스페셜",
+    tags: ["인기"],
+    badge: "짬뽕 스페셜",
+  },
+  {
+    id: 11,
+    name: "수제비 짬뽕",
+    description: "인절미의 고소함을 느끼실 수 있습니다.",
+    image: "/sunsun.jpeg",
+    price: "11,500원",
+    category: "짬뽕 스페셜",
+    tags: ["인기"],
+    badge: "짬뽕 스페셜",
   },
 ]
 
 export function Menu() {
   const [selectedCategory, setSelectedCategory] = useState("짜장&짬뽕")
 
-  const categories = ["짜장&짬뽕","짬뽕 스페셜","사이드", "기타"]
+  const categories = ["짜장&짬뽕","짬뽕 스페셜","요리", "사이드"]
 
   const filteredItems = menuItems.filter((item) => item.category === selectedCategory)
 
@@ -122,9 +152,9 @@ export function Menu() {
                 <Image src={item.image || "/placeholder.svg"} alt={item.name} fill className="object-cover" />
 
                 {/* 좌상단 녹색/주황색 라벨 */}
-                {item.tags.includes("채식") && (
+                {item.tags.includes("튀김") && (
                   <div className="absolute top-2 left-2 md:top-4 md:left-4 bg-green-600 text-white px-2 py-0.5 md:px-3 md:py-1 rounded text-xs md:text-sm font-semibold">
-                    채식
+                    튀김
                   </div>
                 )}
 

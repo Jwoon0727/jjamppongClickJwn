@@ -234,9 +234,9 @@ function Hero() {
     _s();
     const [currentSlide, setCurrentSlide] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const slides = [
-        "/IMG_2500.png",
-        "/korean-chinese-restaurant-interior-with-jjamppong-.jpg",
-        "/steaming-hot-jjamppong-soup-with-fresh-ingredients.jpg"
+        "/main.jpeg",
+        "/fire13.jpeg",
+        "/main04.png"
     ];
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Hero.useEffect": ()=>{
@@ -286,7 +286,7 @@ function Hero() {
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-black/60"
+                        className: "absolute inset-0 bg-black/30"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
                         lineNumber: 42,
@@ -315,26 +315,26 @@ function Hero() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 text-center px-4 max-w-3xl mx-auto",
+                className: "relative z-10 text-center px-4 max-w-3xl mx-auto -translate-y-45 md:-translate-y-45",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-xl md:text-2xl text-white/90 mb-8",
                         children: "진정한 맛의 중국 짬뽕을 경험하세요"
                     }, void 0, false, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 60,
-                        columnNumber: 9
+                        lineNumber: 59,
+                        columnNumber: 3
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col sm:flex-row gap-4 justify-center",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: "px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors",
-                                children: "창업문의"
+                                children: "인테리어"
                             }, void 0, false, {
                                 fileName: "[project]/components/hero.tsx",
-                                lineNumber: 62,
-                                columnNumber: 11
+                                lineNumber: 61,
+                                columnNumber: 5
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: scrollToMenu,
@@ -342,14 +342,14 @@ function Hero() {
                                 children: "메뉴보기"
                             }, void 0, false, {
                                 fileName: "[project]/components/hero.tsx",
-                                lineNumber: 65,
-                                columnNumber: 11
+                                lineNumber: 64,
+                                columnNumber: 5
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/hero.tsx",
-                        lineNumber: 61,
-                        columnNumber: 9
+                        lineNumber: 60,
+                        columnNumber: 3
                     }, this)
                 ]
             }, void 0, true, {
@@ -987,12 +987,12 @@ const menuItems = [
         description: "바삭한 튀김옷과 새콤달콤한 소스가 어우러진 정통 탕수육",
         image: "/tangsu.jpeg",
         price: "17,000원",
-        category: "사이드",
+        category: "요리",
         tags: [
             "인기",
             "프리미엄"
         ],
-        badge: "사이드"
+        badge: "요리"
     },
     {
         id: 3,
@@ -1012,11 +1012,11 @@ const menuItems = [
         description: "짜장과 볶음밥을 함께 먹을 수 있습니다.",
         image: "/bokk.jpeg",
         price: "10,000원",
-        category: "기타",
+        category: "요리",
         tags: [
             "인기"
         ],
-        badge: "기타"
+        badge: "요리"
     },
     {
         id: 5,
@@ -1026,7 +1026,7 @@ const menuItems = [
         price: "7,500원",
         category: "사이드",
         tags: [
-            "채식"
+            "튀김"
         ],
         badge: "사이드"
     },
@@ -1041,7 +1041,7 @@ const menuItems = [
             "프리미엄",
             "건강식"
         ],
-        badge: "사이드"
+        badge: "짬뽕 스페셜"
     },
     {
         id: 7,
@@ -1055,15 +1055,51 @@ const menuItems = [
     },
     {
         id: 8,
-        name: "망고 푸딩",
-        description: "신선한 망고로 만든 부드럽고 달콤한 디저트",
-        image: "/mango-pudding-dessert.jpg",
-        price: "7,000원",
-        category: "기타",
+        name: "짬짜면",
+        description: "짜장면과 짬뽕을 함께 즐길 수 있습니다.",
+        image: "/jjamjja.jpeg",
+        price: "12,000원",
+        category: "짜장&짬뽕",
         tags: [
             "인기"
         ],
-        badge: "기타"
+        badge: "짜장&짬뽕"
+    },
+    {
+        id: 9,
+        name: "인절미 탕수육",
+        description: "인절미의 고소함을 느끼실 수 있습니다.",
+        image: "/injulmi.jpeg",
+        price: "19,000원",
+        category: "요리",
+        tags: [
+            "인기"
+        ],
+        badge: "요리"
+    },
+    {
+        id: 10,
+        name: "숙주 짬뽕",
+        description: "인절미의 고소함을 느끼실 수 있습니다.",
+        image: "/sun.jpeg",
+        price: "11,500원",
+        category: "짬뽕 스페셜",
+        tags: [
+            "인기"
+        ],
+        badge: "짬뽕 스페셜"
+    },
+    {
+        id: 11,
+        name: "수제비 짬뽕",
+        description: "인절미의 고소함을 느끼실 수 있습니다.",
+        image: "/sunsun.jpeg",
+        price: "11,500원",
+        category: "짬뽕 스페셜",
+        tags: [
+            "인기"
+        ],
+        badge: "짬뽕 스페셜"
     }
 ];
 function Menu() {
@@ -1072,8 +1108,8 @@ function Menu() {
     const categories = [
         "짜장&짬뽕",
         "짬뽕 스페셜",
-        "사이드",
-        "기타"
+        "요리",
+        "사이드"
     ];
     const filteredItems = menuItems.filter((item)=>item.category === selectedCategory);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1090,12 +1126,12 @@ function Menu() {
                             children: category
                         }, category, false, {
                             fileName: "[project]/components/menu.tsx",
-                            lineNumber: 101,
+                            lineNumber: 131,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/menu.tsx",
-                    lineNumber: 99,
+                    lineNumber: 129,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1113,15 +1149,15 @@ function Menu() {
                                             className: "object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/components/menu.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 152,
                                             columnNumber: 17
                                         }, this),
-                                        item.tags.includes("채식") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        item.tags.includes("튀김") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute top-2 left-2 md:top-4 md:left-4 bg-green-600 text-white px-2 py-0.5 md:px-3 md:py-1 rounded text-xs md:text-sm font-semibold",
-                                            children: "채식"
+                                            children: "튀김"
                                         }, void 0, false, {
                                             fileName: "[project]/components/menu.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 156,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1129,13 +1165,13 @@ function Menu() {
                                             children: item.badge
                                         }, void 0, false, {
                                             fileName: "[project]/components/menu.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 162,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/menu.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 151,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1148,12 +1184,12 @@ function Menu() {
                                                     children: tag
                                                 }, tag, false, {
                                                     fileName: "[project]/components/menu.tsx",
-                                                    lineNumber: 141,
+                                                    lineNumber: 171,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/menu.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 169,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1161,7 +1197,7 @@ function Menu() {
                                             children: item.name
                                         }, void 0, false, {
                                             fileName: "[project]/components/menu.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 181,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1169,7 +1205,7 @@ function Menu() {
                                             children: item.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/menu.tsx",
-                                            lineNumber: 154,
+                                            lineNumber: 184,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1179,40 +1215,40 @@ function Menu() {
                                                 children: item.price
                                             }, void 0, false, {
                                                 fileName: "[project]/components/menu.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 190,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/menu.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 189,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/menu.tsx",
-                                    lineNumber: 137,
+                                    lineNumber: 167,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, item.id, true, {
                             fileName: "[project]/components/menu.tsx",
-                            lineNumber: 117,
+                            lineNumber: 147,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/menu.tsx",
-                    lineNumber: 115,
+                    lineNumber: 145,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/menu.tsx",
-            lineNumber: 98,
+            lineNumber: 128,
             columnNumber: 8
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/menu.tsx",
-        lineNumber: 97,
+        lineNumber: 127,
         columnNumber: 5
     }, this);
 }

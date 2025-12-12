@@ -6,9 +6,9 @@ export function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const slides = [
-    "/IMG_2500.png",
-    "/korean-chinese-restaurant-interior-with-jjamppong-.jpg",
-    "/steaming-hot-jjamppong-soup-with-fresh-ingredients.jpg",
+    "/main.jpeg",
+    "/fire13.jpeg",
+    "/main04.png",
   ]
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export function Hero() {
           </div>
         ))}
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/30"></div>
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
@@ -55,21 +55,20 @@ export function Hero() {
         ))}
       </div>
 
-      <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-        
-        <p className="text-xl md:text-2xl text-white/90 mb-8">진정한 맛의 중국 짬뽕을 경험하세요</p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors">
-            창업문의
-          </button>
-          <button
-            onClick={scrollToMenu}
-            className="px-8 py-3 border-2 border-red-600 text-white rounded-full font-semibold hover:bg-red-600/20 transition-colors"
-          >
-            메뉴보기
-          </button>
-        </div>
-      </div>
+      <div className="relative z-10 text-center px-4 max-w-3xl mx-auto -translate-y-45 md:-translate-y-45">
+  <p className="text-xl md:text-2xl text-white/90 mb-8">진정한 맛의 중국 짬뽕을 경험하세요</p>
+  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+    <button className="px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors">
+      인테리어
+    </button>
+    <button
+      onClick={scrollToMenu}
+      className="px-8 py-3 border-2 border-red-600 text-white rounded-full font-semibold hover:bg-red-600/20 transition-colors"
+    >
+      메뉴보기
+    </button>
+  </div>
+</div>
     </section>
   )
 }
