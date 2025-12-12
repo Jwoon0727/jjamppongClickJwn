@@ -55,7 +55,7 @@ export function Hero() {
         ))}
       </div>
 
-      <div className="relative z-10 text-center px-4 max-w-3xl mx-auto -translate-y-45 md:-translate-y-45">
+      <div className="relative z-10 text-center px-4 max-w-3xl mx-auto -translate-y-25 md:-translate-y-25">
   <p className="text-xl md:text-2xl text-white/90 mb-8">진정한 맛의 중국 짬뽕을 경험하세요</p>
   <div className="flex flex-col sm:flex-row gap-4 justify-center">
   <a
