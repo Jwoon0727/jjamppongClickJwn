@@ -23,9 +23,9 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">연락처</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>📞 02-1234-5678</p>
+              <p>📞 041-902-2600</p>
               <p>📧 info@jjamppong.kr</p>
-              <p>📍 서울시 강남구 테헤란로 123</p>
+              <p>📍 충남 천안시 서북구 부성9로 6</p>
             </div>
           </div>
         </div>
