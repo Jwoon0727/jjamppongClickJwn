@@ -1,12 +1,42 @@
-[00:00:00.861] Server  LOG      ✓ Ready in 569ms
-[00:00:06.016] Server  LOG      ○ Compiling / ...
-[00:00:07.752] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.865] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:07.865] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:07.865] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765546226884}
-[00:03:33.295] Server  LOG      ✓ Compiled in 58ms
-[00:04:10.616] Server  LOG      ✓ Compiled in 52ms
-[00:04:25.001] Server  LOG      ✓ Compiled in 48ms
-[00:04:37.593] Server  LOG      ✓ Compiled in 81ms
-[00:04:49.739] Server  LOG      ✓ Compiled in 66ms
-[00:31:36.431] Server  LOG      ✓ Compiled in 72ms
+[00:00:02.576] Server  LOG      ✓ Ready in 2.3s
+[00:00:10.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.540] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.540] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:10.540] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766969424329}
+[00:03:39.465] Server  LOG      ✓ Compiled in 79ms
+[00:03:50.291] Server  LOG      ✓ Compiled in 89ms
+[00:06:55.858] Server  LOG      ✓ Compiled in 110ms
+[00:07:55.183] Server  LOG      ✓ Compiled in 70ms
+[00:09:17.649] Server  LOG      ✓ Compiled in 29ms
+[00:15:14.867] Server  LOG      ✓ Compiled in 35ms
+[00:17:51.603] Server  LOG      ✓ Compiled in 57ms
+[00:18:12.777] Server  LOG      ✓ Compiled in 27ms
+[00:18:27.496] Server  LOG      ✓ Compiled in 72ms
+[00:18:54.262] Server  LOG      ✓ Compiled in 58ms
+[00:18:55.029] Browser ERROR   ./components/hero.tsx:80:2
+Parsing ecmascript source code failed
+  78 |   //   </div>
+  79 |   // </div>
+> 80 | )}
+     |  ^
+  81 |     </section>
+  82 |   )
+  83 | }
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:20:29.764] Server  LOG      ✓ Compiled in 62ms
+[00:21:37.680] Server  LOG      ✓ Compiled in 27ms
+[00:21:50.076] Server  LOG      ✓ Compiled in 65ms
+[00:21:56.465] Server  LOG      ✓ Compiled in 26ms
+[00:23:41.667] Server  LOG      ✓ Compiled in 34ms
+[00:24:36.893] Server  LOG      ✓ Compiled in 63ms
+[00:26:10.369] Server  LOG      ✓ Compiled in 43ms
+[00:26:23.372] Server  LOG      ✓ Compiled in 49ms
+[00:26:38.647] Server  LOG      ✓ Compiled in 41ms
+[00:26:56.920] Server  LOG      ✓ Compiled in 34ms
+[00:27:32.491] Server  LOG      ✓ Compiled in 29ms

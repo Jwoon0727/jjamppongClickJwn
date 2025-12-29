@@ -6,10 +6,18 @@ export function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const slides = [
-    "/main.jpeg",
-    "/main00.png",
-    "/inside.jpeg",
-    
+    {
+      image: "/main.jpg",
+      text: "주문과 동시에 면을 뽑아 즉석으로 만드는 화끈한 짬뽕 맛 !"
+    },
+    {
+      image: "/main00.png",
+      text: "신선한 재료로 만드는 정통 중화요리의 진수"
+    },
+    {
+      image: "/inside.jpeg",
+      text: "편안하고 모던한 분위기에서 즐기는 특별한 한끼"
+    },
   ]
 
   useEffect(() => {
@@ -19,15 +27,8 @@ export function Hero() {
     return () => clearInterval(timer)
   }, [slides.length])
 
-  const scrollToMenu = () => {
-    const menuSection = document.getElementById("menu")
-    if (menuSection) {
-      menuSection.scrollIntoView({ behavior: "smooth", block: "start" })
-    }
-  }
-
   return (
-    <section className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[75vh] md:min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
           <div
@@ -36,48 +37,35 @@ export function Hero() {
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            <img src={slide || "/IMG_2500.png"} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
+            <img src={slide.image || "/IMG_2500.png"} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
           </div>
         ))}
         {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              index === currentSlide ? "bg-red-600 w-8" : "bg-white/50 hover:bg-white/80"
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
+      {/* 텍스트 영역 - 하단에 배경색과 함께 */}
+      <div className="absolute bottom-0 left-0 right-0 z-20 bg-black/60 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto px-4 py-6 md:py-8">
+          <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-white text-center">
+            {slides[currentSlide].text}
+          </h2>
+        </div>
+        
+        {/* 슬라이드 인디케이터 */}
+        <div className="flex justify-center gap-2 pb-6">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentSlide(index)}
+              className={`w-3 h-3 rounded-full transition-all ${
+                index === currentSlide ? "bg-red-600 w-8" : "bg-white/50 hover:bg-white/80"
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
       </div>
-      {currentSlide !== slides.length - 2 && (
-  <div className="relative z-10 text-center px-4 max-w-3xl mx-auto -translate-y-25 md:-translate-y-25">
-    <p className="text-xl md:text-2xl text-white/90 mb-8">
-      진정한 맛의짬뽕을 경험하세요
-    </p>
-
-    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-      <a
-        href="/interior"
-        className="px-8 py-3 bg-red-600 text-white rounded-full font-semibold hover:bg-red-700 transition-colors"
-      >
-        인테리어
-      </a>
-
-      <button
-        onClick={scrollToMenu}
-        className="px-8 py-3 border-2 border-red-600 text-white rounded-full font-semibold hover:bg-red-600/20 transition-colors"
-      >
-        메뉴보기
-      </button>
-    </div>
-  </div>
-)}
     </section>
   )
 }
