@@ -1,42 +1,42 @@
-[00:00:02.576] Server  LOG      ✓ Ready in 2.3s
-[00:00:10.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.540] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.540] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.540] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766969424329}
-[00:03:39.465] Server  LOG      ✓ Compiled in 79ms
-[00:03:50.291] Server  LOG      ✓ Compiled in 89ms
-[00:06:55.858] Server  LOG      ✓ Compiled in 110ms
-[00:07:55.183] Server  LOG      ✓ Compiled in 70ms
-[00:09:17.649] Server  LOG      ✓ Compiled in 29ms
-[00:15:14.867] Server  LOG      ✓ Compiled in 35ms
-[00:17:51.603] Server  LOG      ✓ Compiled in 57ms
-[00:18:12.777] Server  LOG      ✓ Compiled in 27ms
-[00:18:27.496] Server  LOG      ✓ Compiled in 72ms
-[00:18:54.262] Server  LOG      ✓ Compiled in 58ms
-[00:18:55.029] Browser ERROR   ./components/hero.tsx:80:2
-Parsing ecmascript source code failed
-  78 |   //   </div>
-  79 |   // </div>
-> 80 | )}
-     |  ^
-  81 |     </section>
-  82 |   )
-  83 | }
+[00:00:01.583] Server  LOG      ✓ Ready in 1291ms
+[00:00:18.928] Server  LOG      ○ Compiling / ...
+[00:00:21.300] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.440] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.440] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.440] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767353571524}
+[00:01:56.347] Server  LOG      ✓ Compiled in 84ms
+[00:02:32.091] Server  LOG      ✓ Compiled in 30ms
+[00:03:09.245] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/interior color: rgb(120, 120, 120) color: inherit {"dp":"/interior","o":"http://localhost:3000/interior","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767353739331}
+[00:03:11.659] Server  LOG      ✓ Compiled in 94ms
+[00:03:13.231] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:03:13.231] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767353743316}
+[00:03:18.868] Server  LOG      ✓ Compiled in 88ms
+[00:04:02.003] Server  LOG      ✓ Compiled in 81ms
+[00:04:09.260] Server  LOG      ✓ Compiled in 37ms
+[00:04:45.580] Server  LOG      ✓ Compiled in 26ms
+[00:06:48.137] Server  LOG      ✓ Compiled in 35ms
+[00:06:57.372] Server  LOG      ✓ Compiled in 129ms
+[00:07:59.714] Server  LOG      ✓ Compiled in 37ms
+[00:10:07.337] Server  LOG      ✓ Compiled in 42ms
+[00:11:15.512] Server  LOG      ✓ Compiled in 32ms
+[00:11:26.455] Server  LOG      ✓ Compiled in 146ms
+[00:12:06.701] Server  LOG      ✓ Compiled in 41ms
+[00:13:04.092] Server  LOG      ✓ Compiled in 39ms
+[00:15:52.597] Server  LOG      ✓ Compiled in 36ms
+[00:16:23.179] Server  LOG      ✓ Compiled in 46ms
+[00:16:37.007] Server  LOG      ✓ Compiled in 34ms
+[00:24:18.226] Browser ERROR   ./app/page.tsx:4:1
+Export Info doesn't exist in target module
+  2 | import { Hero } from "@/components/hero"
+  3 | import { About } from "@/components/about"
+> 4 | import { Info } from "@/components/info"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Menu } from "@/components/menu"
+  6 | import { Franchise } from "@/components/franchise"
+  7 | import { Location } from "@/components/location"
 
-Expected '</', got '}'
-
-Import trace:
-  Server Component:
-    ./components/hero.tsx
-    ./app/page.tsx
-[00:20:29.764] Server  LOG      ✓ Compiled in 62ms
-[00:21:37.680] Server  LOG      ✓ Compiled in 27ms
-[00:21:50.076] Server  LOG      ✓ Compiled in 65ms
-[00:21:56.465] Server  LOG      ✓ Compiled in 26ms
-[00:23:41.667] Server  LOG      ✓ Compiled in 34ms
-[00:24:36.893] Server  LOG      ✓ Compiled in 63ms
-[00:26:10.369] Server  LOG      ✓ Compiled in 43ms
-[00:26:23.372] Server  LOG      ✓ Compiled in 49ms
-[00:26:38.647] Server  LOG      ✓ Compiled in 41ms
-[00:26:56.920] Server  LOG      ✓ Compiled in 34ms
-[00:27:32.491] Server  LOG      ✓ Compiled in 29ms
+The export Info was not found in module [project]/components/info.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:32:49.898] Server  LOG      ✓ Compiled in 73ms
+[00:33:28.373] Server  LOG      ✓ Compiled in 40ms

@@ -26,11 +26,23 @@ export function Location() {
       }
 
       const openTime = 10 * 60 + 30 // 10:30
-      const lastOrderTime = 15 * 60 // 15:00
-      const closeTime = 15 * 60 + 30 // 15:30
+      const breakStartTime = 15 * 60 // 15:00
+      const breakEndTime = 16 * 60 + 30 // 16:30
+      const lastOrderTime = 20 * 60 // 20:00
+      const closeTime = 20 * 60 + 30 // 20:30
       const threeHoursBeforeOpen = openTime - 180 // 3시간 = 180분 (7:30)
 
-      if (currentTime >= openTime && currentTime < lastOrderTime) {
+      if (currentTime >= openTime && currentTime < breakStartTime) {
+        setCurrentStatus({
+          isOpen: true,
+          message: "영업중",
+        })
+      } else if (currentTime >= breakStartTime && currentTime < breakEndTime) {
+        setCurrentStatus({
+          isOpen: false,
+          message: "브레이크타임",
+        })
+      } else if (currentTime >= breakEndTime && currentTime < lastOrderTime) {
         setCurrentStatus({
           isOpen: true,
           message: "영업중",
@@ -118,8 +130,9 @@ export function Location() {
                         {currentStatus.message}
                       </span>
                     </div>
-                    <p>월, 수-일: 10:30 - 15:30</p>
-                    <p className="text-sm text-amber-600 font-semibold">라스트오더 15:00</p>
+                    <p>월, 수-일: 10:30 - 20:30</p>
+                    <p className="text-sm text-blue-600 font-semibold">브레이크타임: 15:00 - 16:30</p>
+                    <p className="text-sm text-amber-600 font-semibold">라스트오더: 20:00</p>
                     <p className="text-sm mt-2 font-semibold text-red-600">매주 화요일 휴무</p>
                   </div>
                 </div>

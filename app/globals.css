@@ -132,6 +132,10 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px; /* 헤더 높이만큼 여백 추가 */
+  }
   body {
     @apply bg-background text-foreground;
   }

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
 export function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -8,7 +9,7 @@ export function Hero() {
   const slides = [
     {
       image: "/main.jpg",
-      text: "주문과 동시에 면을 뽑아 즉석으로 만드는 화끈한 짬뽕 맛 !"
+      text: "모든 음식은 주문과 동시에 조리됩니다 !"
     },
     {
       image: "/main00.png",
@@ -16,7 +17,7 @@ export function Hero() {
     },
     {
       image: "/inside.jpeg",
-      text: "편안하고 모던한 분위기에서 즐기는 특별한 한끼"
+      text: "편안한 분위기에서 즐기는 한끼"
     },
   ]
 
@@ -26,6 +27,14 @@ export function Hero() {
     }, 5000)
     return () => clearInterval(timer)
   }, [slides.length])
+
+  const handlePrevious = () => {
+    setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1))
+  }
+
+  const handleNext = () => {
+    setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
+  }
 
   return (
     <section className="relative min-h-[75vh] md:min-h-screen flex items-center justify-center overflow-hidden">
@@ -43,6 +52,24 @@ export function Hero() {
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
+
+      {/* 이전 버튼 */}
+      <button
+        onClick={handlePrevious}
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all hover:scale-110"
+        aria-label="이전 슬라이드"
+      >
+        <ChevronLeft className="w-6 h-6" />
+      </button>
+
+      {/* 다음 버튼 */}
+      <button
+        onClick={handleNext}
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all hover:scale-110"
+        aria-label="다음 슬라이드"
+      >
+        <ChevronRight className="w-6 h-6" />
+      </button>
 
       {/* 텍스트 영역 - 하단에 배경색과 함께 */}
       <div className="absolute bottom-0 left-0 right-0 z-20 bg-black/60 backdrop-blur-sm">

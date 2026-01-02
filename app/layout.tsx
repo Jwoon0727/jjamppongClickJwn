@@ -8,8 +8,8 @@ const notoSerifKr = Noto_Serif_KR({ subsets: ["latin"], weight: ["400", "700"] }
 const notSansKr = Noto_Sans_KR({ subsets: ["latin"], weight: ["400", "500", "700"] })
 
 export const metadata: Metadata = {
-  title: "짬뽕클릭 - 정통 중국 짬뽕",
-  description: "진정한 맛의 정통 중국 짬뽕을 경험하세요. 신선한 재료와 전통 조리법으로 만든 프리미엄 중식당입니다.",
+  title: "짬뽕클릭 - 불맛으로 짬뽕의 품격을 높이다",
+  description: "불맛으로 짬뽕의 품격을 높이다.",
   generator: "v0.app",
   icons: {
     icon: [

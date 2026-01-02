@@ -9,7 +9,7 @@ const franchises = [
     name: "천안 본점",
     address: "충남 천안시 서북구 부성9로 6",
     phone: "041-902-2600",
-    hours: "11:00 - 22:00",
+    hours: "10:30 - 20:30",
     image: "/interior.jpeg",
   },
   {
@@ -46,7 +46,7 @@ export function Franchise() {
   const currentFranchise = franchises[currentIndex]
 
   return (
-    <section className="w-full bg-primary text-primary-foreground py-16 md:py-24">
+    <section id="franchise" className="w-full bg-primary text-primary-foreground py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         {/* Section Title */}
         <div className="text-center mb-12">
@@ -180,7 +180,7 @@ export function Franchise() {
                   href="/interior"
                   className="w-full mt-4 bg-white hover:bg-gray-100 text-red-600 font-bold py-4 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-red-600 text-center block"
                 >
-                  인테리어 자세히 보기 🏗️
+                  짬뽕클릭 인테리어 자세히 보기 🏗️
                 </a>
               </>
             )}

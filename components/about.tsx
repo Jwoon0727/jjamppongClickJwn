@@ -42,26 +42,54 @@ export function About() {
             </video>
           </div>
 
-          {/* Content */}
-          <div className="space-y-6">
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              짬뽕클릭은 정통 중국 요리의 맛과 현대적 감각을 결합한 프리미엄 중식당입니다.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              엄선된 재료와 전통 조리법으로 만든 진정한 짬뽕을 경험할 수 있으며, 각 요리는 최고의 품질과 맛을
-              약속합니다.
-            </p>
+         
 
-            <div className="grid grid-cols-2 gap-6 pt-6">
-              <div className="border-l-4 border-accent pl-4">
-                <h3 className="font-semibold mb-2">신선한 재료</h3>
-                <p className="text-sm text-muted-foreground">매일 엄선된 신선한 재료만 사용</p>
-              </div>
-              <div className="border-l-4 border-accent pl-4">
-                <h3 className="font-semibold mb-2">전통 조리법</h3>
-                <p className="text-sm text-muted-foreground">대대로 전해오는 정통 중국 요리법</p>
+
+
+
+
+          {/* Content */}
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <p className="text-xl md:text-2xl text-foreground leading-relaxed font-medium">
+                이 가게는 거창하게 시작하지 않았습니다.
+              </p>
+              
+              <div className="relative pl-6 border-l-4 border-red-600">
+                <p className="text-lg md:text-xl text-foreground leading-relaxed italic">
+                  "속 풀릴 짬뽕 한 그릇 먹고 싶다"
+                </p>
+                <p className="text-base text-muted-foreground mt-2">
+                  그 한마디에서 모든 것이 시작되었습니다.
+                </p>
               </div>
             </div>
+
+            <div className="space-y-4 py-4">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                퇴근길에, 비 오는 날에,<br />
+                괜히 매운 게 당기는 날에<br />
+                <span className="text-foreground font-semibold">편하게 들어와 먹을 수 있는 곳.</span>
+              </p>
+              
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                <span className="text-red-600 font-semibold">국물 한 숟갈</span>로 한숨을 내려놓고<br />
+                <span className="text-red-600 font-semibold">면 한 젓가락</span>으로 하루를 정리하는 곳이었으면 했습니다.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-r from-red-50 to-transparent p-6 rounded-lg border-l-4 border-red-600">
+              <p className="text-lg text-foreground leading-relaxed mb-3">
+                그래서 오늘도 <span className="font-bold text-red-600">재료는 아끼지 않고</span><br />
+                <span className="font-bold text-red-600">손님은 가족처럼</span> 맞이합니다.
+              </p>
+              <p className="text-xl md:text-2xl font-bold text-foreground">
+                동네의 하루를 책임지는 짬뽕집,<br />
+                <span className="text-red-600">그게 우리의 목표입니다.</span>
+              </p>
+            </div>
+
+        
           </div>
         </div>
 
