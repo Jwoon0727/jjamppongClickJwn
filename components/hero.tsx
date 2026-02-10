@@ -12,7 +12,7 @@ export function Hero() {
       text: "모든 음식은 주문과 동시에 조리됩니다 !",
     },
     {
-      image: "/main11.jpg",
+      image: "/main123.png",
       text: "신선한 재료로 만드는 정통 중화요리의 진수",
     },
     {
