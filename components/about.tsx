@@ -15,7 +15,7 @@ export function About() {
       {
         threshold: 0.2,
         rootMargin: "0px",
-      }
+      },
     );
 
     if (cardsRef.current) {
@@ -61,8 +61,18 @@ export function About() {
         </div>
 
         <div className="mt-20">
-          <div className="bg-gradient-to-br from-black via-zinc-900 to-black rounded-2xl p-8 md:p-12 shadow-2xl border border-red-900/20">
-            <div className="text-center mb-10">
+          <div className="bg-gradient-to-br from-black via-zinc-900 to-black rounded-2xl shadow-2xl border border-red-900/20 overflow-hidden">
+            {/* Content - Image - 얇은 패딩 */}
+            <div className="relative h-full flex items-center p-2 md:p-3">
+              <img
+                src="/info02.png"
+                alt="짬뽕클릭 소개"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+            
+            <div className="text-center mb-10 px-8 md:px-12 pt-8">
+              <br />
               <div className="inline-block bg-red-600 text-white px-6 py-2 rounded-full font-bold mb-4">
                 매운맛 레벨
               </div>
@@ -76,7 +86,7 @@ export function About() {
 
             <div
               ref={cardsRef}
-              className="grid grid-cols-2 md:grid-cols-4 gap-4"
+              className="grid grid-cols-2 md:grid-cols-4 gap-4 px-8 md:px-12"
             >
               {/* Level 1 */}
               <div
@@ -197,7 +207,7 @@ export function About() {
               </div>
             </div>
 
-            <div className="mt-8 text-center">
+            <div className="mt-8 text-center px-8 md:px-12 pb-8">
               <p className="text-sm text-gray-500">
                 * 매운맛 단계는 주문 시 선택 가능하며, 취향에 맞게
                 조절해드립니다

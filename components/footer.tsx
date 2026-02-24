@@ -33,7 +33,7 @@ export function Footer() {
         </div>
 
         <div className="border-t-3 border-red-600/30 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2025 짬뽕클릭. 모든 권리 보유.</p>
+          <p>&copy; 2025 짬뽕클릭.</p>
         </div>
       </div>
     </footer>

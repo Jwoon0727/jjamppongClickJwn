@@ -8,8 +8,7 @@ export function Hero() {
 
   const slides = [
     {
-      image: "/main.jpg",
-      text: "모든 음식은 주문과 동시에 조리됩니다 !",
+      image: "/main33.jpg",
     },
     {
       image: "/main123.png",
@@ -18,9 +17,7 @@ export function Hero() {
     {
       image: "/main22.jpg",
     },
-    {
-      image: "/main33.jpg",
-    },
+
     {
       image: "/inside.jpeg",
       text: "편안한 분위기에서 즐기는 한끼",

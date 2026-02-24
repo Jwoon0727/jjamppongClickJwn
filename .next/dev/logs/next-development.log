@@ -1,17 +1,42 @@
-[00:00:00.618] Server  LOG      ✓ Ready in 360ms
-[00:00:06.383] Server  LOG      ○ Compiling / ...
-[00:00:09.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.072] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.072] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.072] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1770708423166}
-[00:08:31.305] Server  LOG      ✓ Compiled in 49ms
-[00:09:08.904] Server  LOG      ✓ Compiled in 34ms
-[00:10:04.581] Server  LOG      ✓ Compiled in 31ms
-[00:11:00.770] Server  LOG      ✓ Compiled in 23ms
-[00:11:44.106] Server  LOG      ✓ Compiled in 28ms
-[00:14:22.430] Server  LOG      ✓ Compiled in 40ms
-[00:15:39.285] Server  LOG      ✓ Compiled in 39ms
-[00:18:57.459] Server  LOG      ✓ Compiled in 50ms
-[00:19:18.497] Server  LOG      ✓ Compiled in 29ms
-[00:19:24.408] Server  LOG      ✓ Compiled in 28ms
-[00:19:47.468] Server  LOG      ✓ Compiled in 51ms
+[00:00:02.092] Server  LOG      ✓ Ready in 1812ms
+[00:00:06.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.258] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.258] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:06.258] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771940735987}
+[00:02:12.486] Server  LOG      ✓ Compiled in 94ms
+[00:02:47.103] Server  LOG      ✓ Compiled in 35ms
+[00:04:23.753] Server  LOG      ✓ Compiled in 34ms
+[00:08:44.192] Server  LOG      ✓ Compiled in 29ms
+[00:08:57.621] Server  LOG      ✓ Compiled in 32ms
+[00:09:22.940] Server  LOG      ✓ Compiled in 30ms
+[00:09:38.014] Server  LOG      ✓ Compiled in 28ms
+[00:10:42.719] Browser ERROR   ./app/page.tsx:4:1
+Export Info doesn't exist in target module
+  2 | import { Hero } from "@/components/hero"
+  3 | import { About } from "@/components/about"
+> 4 | import { Info } from "@/components/info"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Menu } from "@/components/menu"
+  6 | import { Franchise } from "@/components/franchise"
+  7 | import { Location } from "@/components/location"
+
+The export Info was not found in module [project]/components/info.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:10:46.136] Server  LOG      ✓ Compiled in 64ms
+[00:10:46.720] Browser ERROR   ./app/page.tsx:4:1
+Export Info doesn't exist in target module
+  2 | import { Hero } from "@/components/hero"
+  3 | import { About } from "@/components/about"
+> 4 | import { Info } from "@/components/info"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { Menu } from "@/components/menu"
+  6 | import { Franchise } from "@/components/franchise"
+  7 | import { Location } from "@/components/location"
+
+The export Info was not found in module [project]/components/info.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:10:50.573] Server  LOG      ✓ Compiled in 28ms
+[00:10:55.445] Server  LOG      ✓ Compiled in 60ms
+[00:12:01.251] Server  LOG      ✓ Compiled in 67ms

@@ -1916,16 +1916,6 @@
     }
   }
 
-  .bg-black\/30 {
-    background-color: #0000004d;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-black\/30 {
-      background-color: color-mix(in oklab, var(--color-black) 30%, transparent);
-    }
-  }
-
   .bg-black\/40 {
     background-color: #0006;
   }
@@ -2294,16 +2284,8 @@
     padding: 1px;
   }
 
-  .p-\[2px\] {
-    padding: 2px;
-  }
-
   .p-\[3px\] {
     padding: 3px;
-  }
-
-  .p-\[5px\] {
-    padding: 5px;
   }
 
   .p-px {
@@ -2440,6 +2422,10 @@
 
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
+  }
+
+  .pb-8 {
+    padding-bottom: calc(var(--spacing) * 8);
   }
 
   .pl-2 {
@@ -5047,6 +5033,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:h-full {
+      height: 100%;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:min-h-screen {
       min-height: 100vh;
     }
@@ -5113,6 +5105,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:p-3 {
+      padding: calc(var(--spacing) * 3);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:p-6 {
       padding: calc(var(--spacing) * 6);
     }
@@ -5143,6 +5141,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:px-12 {
+      padding-inline: calc(var(--spacing) * 12);
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:py-1 {
       padding-block: calc(var(--spacing) * 1);
     }
@@ -5151,12 +5155,6 @@
   @media (min-width: 48rem) {
     .md\:py-8 {
       padding-block: calc(var(--spacing) * 8);
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:py-16 {
-      padding-block: calc(var(--spacing) * 16);
     }
   }
 
@@ -5305,12 +5303,6 @@
   @media (min-width: 64rem) {
     .lg\:py-10 {
       padding-block: calc(var(--spacing) * 10);
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:py-20 {
-      padding-block: calc(var(--spacing) * 20);
     }
   }
 
